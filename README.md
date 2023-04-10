@@ -2,6 +2,7 @@
 
 自动编译lean的lede固件。
 安装的是自带的ssr。
+教程链接：https://youtu.be/9YO7nxNry-4
 
 ## 说明
 
