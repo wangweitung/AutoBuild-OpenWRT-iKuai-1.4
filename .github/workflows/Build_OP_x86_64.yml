@@ -15,7 +15,7 @@ name: Build_x86_64
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 19 */5 * *'
+    - cron: '0 19 */30 * *'
 
 jobs:
   build:
