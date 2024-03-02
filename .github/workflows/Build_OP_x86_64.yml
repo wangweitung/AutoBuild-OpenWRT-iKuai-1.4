@@ -64,7 +64,10 @@ jobs:
         cd openwrt
         echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
         echo "src-git adguardhome https://github.com/xiaoxiao29/luci-app-adguardhome.git" >> ./feeds.conf.default
-        
+        echo "src-git passwall_luci https://github.com/xiaorouji/openwrt-passwall.git" >> ./feeds.conf.default
+        echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main" >> feeds.conf.default
+        echo "src-git mosdns https://github.com/sbwml/luci-app-mosdns.git" >> ./feeds.conf.default
+
     - name: Update & Install feeds
       working-directory: ./openwrt
       run: |
@@ -108,4 +111,5 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: OpenWrt
-        path: openwrt/bin/targets/x86/64/openwrt-x86-64-generic-squashfs-combined-efi.img.gz
+        path: openwrt/bin/targets/x86/64/
+    #    path: openwrt/bin/targets/x86/64/openwrt-x86-64-generic-squashfs-combined-efi.img.gz
