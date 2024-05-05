@@ -1,7 +1,7 @@
 # 自动编译固件
 
 自动编译lean的lede固件。
-安装的是自带的passwall。
+安装的是OpenClash。
 教程链接：https://youtu.be/9YO7nxNry-4
 
 ## 说明
@@ -27,7 +27,7 @@ luci-app-zerotier
 
 管理ip
 
-10.1.1.2
+http://10.1.1.4
 
     
 **2. 编译所需时间**
