@@ -11,19 +11,27 @@
 
 安装的插件
 
-luci-app-filetransfer
+luci-app-accesscontrol
+
+luci-app-arpbind
+
+luci-app-autoreboot
 
 luci-app-firewall
 
 luci-app-nlbwmon
 
-luci-app-passwall
+luci-app-serverchan
+
+luci-app-openclash
 
 luci-app-upnp
 
 luci-app-vlmcsd
 
 luci-app-zerotier
+
+tailscale
 
 管理ip
 
