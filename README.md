@@ -39,10 +39,10 @@ http://10.1.1.4
 
     
 **2. 编译所需时间**
-![编译所需时间](IMG/编译所需时间.png) 
-![概览](IMG/概览.png) 
-![服务](IMG/服务.png) 
-![系统](IMG/系统.png) 
-![网络](IMG/网络.png) 
-![挂载](IMG/挂载.png) 
-![VPN](IMG/VPN.png) 
+![编译所需时间](IMG/0.编译所需时间.png) 
+![状态](IMG/1.状态.png) 
+![系统](IMG/2.系统.png) 
+![服务](IMG/3.服务.png) 
+![VPN](IMG/4.VPN.png) 
+![网络](IMG/5.网络.png) 
+
